@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Login from "./pages/Auth/Login";
-import StudentDashboard from "./pages/Student/Studentdashboard";
+import StudentDashboard from "./pages/Student/StudentDashboard";
 import MentorDashboard from "./pages/Mentor/MentorDashboard";
 import HeadDashboard from "./pages/Head/HeadDashboard";
 import PrivateRoute from "./routes/PrivateRoute";

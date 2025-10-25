@@ -1,7 +1,7 @@
 // src/services/authService.js
 import axios from "axios";
 
-const API = "http://localhost:8000/api/auth"; // adjust if backend base changes
+const API = "https://project-desk-backend.onrender.com"; // adjust if backend base changes
 
 // ✅ Login
 export const login = async (formData) => {

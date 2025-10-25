@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8000/api", // change to your backend URL
+  baseURL: "https://project-desk-backend.onrender.com", // change to your backend URL
 });
 
 // Automatically attach JWT token if available

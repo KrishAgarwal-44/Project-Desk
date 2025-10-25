@@ -6,7 +6,7 @@ const API = "https://project-desk-backend.onrender.com/api"; // adjust if backen
 // ✅ Login
 export const login = async (formData) => {
   try {
-    const response = await axios.post(`${API}/login`, formData);
+    const response = await axios.post(`${API}/auth/login`, formData);
     // backend should return { token, user }
     return response.data;
   } catch (err) {

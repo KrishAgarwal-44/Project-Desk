@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://project-desk-backend.onrender.com/api/auth", // make sure this exactly matches Postman URL
+  baseURL: "https://project-desk-backend.onrender.com/api", // make sure this exactly matches Postman URL
 });
 
 instance.interceptors.request.use((config) => {
